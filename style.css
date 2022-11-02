@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color:#34d399;
+    /* --secodary :#40438c; */
+    --black: #333333;
+    --width-break:600px
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+    background-color: var(--secodary);
+}
+
+nav {
+    background-color: var(--primary-color);
+    text-align: center;
+    border-radius: 0 1rem 0 1rem ;
+}
+
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 0.5rem;
+    margin: 1rem 1rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: large;
+}
+
+
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    height: 6em;
+    /* min-height: 10vh; */
+    /* max-height: 30vh; */
+    overflow:scroll;
+    border: 1px solid var(--black);
+    font-size: 1.5rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
+}
+
+.list-non-bullet{
+    list-style: none;
+  }
+  
+  .list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+  }
+  
+  .link{
+    text-decoration: none;
+    padding: 0.5rem 1rem ;
+    margin: 1rem 0.5rem;
+  }
+  
+  .footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--black);
+    border-top-right-radius: 1rem;
+  }
+  
+  .footer .link{
+    color:var(--black);
+  }
+  
+  .footer-header{
+    font-weight: bold;
+    font-size: larger;
+  }
